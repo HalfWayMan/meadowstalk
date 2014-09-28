@@ -1,4 +1,4 @@
 meadowstalk
 ===========
 
-Repository for [meadowstalk.com].
+Repository for [meadowstalk.com](http://meadowstalk.com).
