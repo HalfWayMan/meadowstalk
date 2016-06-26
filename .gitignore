@@ -1,0 +1,7 @@
+/.stack-work/
+/TAGS
+/client_session_key.aes
+/dist/
+/yesod-devel/
+/meadowstalk.cabal
+/deploy/

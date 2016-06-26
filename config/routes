@@ -1,0 +1,13 @@
+/static                         StaticR               Static siteStatic
+/                               HomeR                 GET
+/favicon.ico                    FavIconR              GET
+/robots.txt                     RobotsR               GET
+/humans.txt                     HumansR               GET
+/sitemap.xsl                    SitemapXslR           GET
+/sitemap.xml                    SitemapXmlR           GET
+/feed                           FeedR                 GET
+/about                          AboutR                GET
+/article/#Text                  ArticleR              GET
+/tag/#TagId                     SearchTagR            GET
+/search                         SearchR               GET
+/contact                        ContactR              GET

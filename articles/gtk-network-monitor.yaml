@@ -1,0 +1,10 @@
+slug:   'gtk-network-monitor-in-haskell'
+title:  'GTK Network Monitor in Haskell'
+image:  'https://s3-eu-west-1.amazonaws.com/meadowstalk/images/speed-meter-shot.png'
+author: 'rain'
+synopsis: >
+  Create a GTK network monitor in Haskell using Cairo.
+tags:
+  - 'Haskell'
+  - 'GTK'
+  - 'Cairo'

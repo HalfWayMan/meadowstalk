@@ -1,0 +1,11 @@
+var disqus_config = function () {
+  this.page.url = "@{ArticleR slug}";
+  this.page.identifier = #{toJSON aid};
+};
+
+(function () {
+  var script = document.createElement ("script");
+  script.src = "//meadowstalkcom.disqus.com/embed.js";
+  script.setAttribute ("data-timestamp", new Date ());
+  document.body.appendChild (script);
+})();

@@ -1,0 +1,34 @@
+User
+  fullName          Text
+  userName          Text
+  email             Text
+  password          ByteString
+  created           UTCTime
+  access            AccessLevel
+  active            Bool
+  lastAccess        UTCTime Maybe
+  UniqueUser userName
+
+Tag
+  name              Text
+  color             Text
+  UniqueTag name
+
+Article
+  slug              Text
+  title             Text
+  image             Text Maybe
+  synopsis          Text
+  content           Text
+  published         UTCTime Maybe
+  author            UserId
+  UniqueArticle slug
+
+ArticleTag
+  article           ArticleId
+  tag               TagId
+
+Related
+  article           ArticleId
+  to                ArticleId
+  rank              Int

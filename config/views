@@ -1,0 +1,8 @@
+ArticleListView
+  slug              Text
+  title             Text
+  image             Text Maybe
+  synopsis          Text
+  published         UTCTime
+  authorName        Text
+  tags              [TagId]

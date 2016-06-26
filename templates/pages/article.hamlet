@@ -1,0 +1,15 @@
+$newline never
+<div .row>
+  <div .col-md-12>
+    <div .media>
+      <div .media-body>
+        <h1 .media-heading>
+          <a href=@{ArticleR slug}>
+            #{articleTitle article}
+        ^{renderTags tags}
+        #{humanReadableTime' now (fromMaybe now (articlePublished article))} by #{userFullName author}
+      $maybe image <- articleImage article
+        <div .media-right>
+          <img .media-object .image-thumb src=#{image} data-jslghtbx>
+    ^{toMarkup (markdown def (articleContent article))}
+    <div #disqus_thread>

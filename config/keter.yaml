@@ -1,0 +1,11 @@
+stanzas:
+  - type: webapp
+    exec: ../meadowstalk
+    env:
+      LANG: "en_US.UTF-8"
+    forward-env:
+      - DB
+    hosts:
+      - meadowstalk
+      - meadowstalk.com
+      - www.meadowstalk.com

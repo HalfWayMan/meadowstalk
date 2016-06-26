@@ -1,0 +1,17 @@
+$newline never
+<div .row>
+  <div .col-md-12>
+    $forall Entity _ article <- articles
+      <div .media>
+        <div .media-body>
+          <h3 .media-heading>
+            <a href=@{ArticleR (articleListViewSlug article)}>
+              #{articleListViewTitle article}
+          ^{renderTagsMap tags (articleListViewTags article)}
+          #{humanReadableTime' now (articleListViewPublished article)} by #{articleListViewAuthorName article}
+          <br />
+          ^{toMarkup (markdown def (articleListViewSynopsis article))}
+        $maybe image <- articleListViewImage article
+          <div .media-right>
+            <a href=@{ArticleR (articleListViewSlug article)}>
+              <img .media-object src=#{image}>

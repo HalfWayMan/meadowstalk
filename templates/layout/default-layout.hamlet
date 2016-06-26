@@ -1,0 +1,58 @@
+$newline never
+\<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <title>
+      #{title} :: Meadowstalk
+    <meta charset="UTF-8">
+    ^{htags}
+  <body>
+    <div .container>
+      <div .row>
+        <div .col-md-12>
+          <div .with-banner-image>
+            <div .logo-text .clearfix>
+              <h1 .pull-left>
+                Meadowstalk
+              <a href=@{FeedR} .pull-right>
+                <i .fa .fa-feed>
+      <div .navbar .navbar-inverse>
+        <div .container>
+          <div .navbar-header>
+            <button type=button .navbar-toggle .collapsed data-toggle=collapse data-target=#navbar-collapse aria-expanded=false>
+              <span .sr-only>
+                Toggle Navigation
+              <span .icon-bar>
+              <span .icon-bar>
+              <span .icon-bar>
+          <div .collapse .navbar-collapse #navbar-collapse>
+            <ul .nav .navbar-nav>
+              <li :isCurrent HomeR:.active>
+                <a href=@{HomeR}>
+                  Home
+              <li :isCurrent AboutR:.active>
+                <a href=@{AboutR}>
+                  About
+              <li :isCurrent ContactR:.active>
+                <a href=@{ContactR}>
+                  Contact
+            <form .navbar-form .navbar-right style="margin-right: 0">
+              <div .form-group>
+                <input type=text name=query .form-control placeholder="Search Meadowstalk">
+      ^{btags}
+      <div .row>
+        <div .col-md-12>
+          <hr />
+          <div .copyright-info>
+            Copyright &copy; 2016 Blake Rain
+            <br>
+            Build With #
+            <a href="http://haskell.org/">
+              Haskell
+            \, #
+            <a href="http://yesodweb.org/">
+              Yesod
+            \ and #
+            <a href="https://facebook.github.io/react/index.html">
+              React
+        

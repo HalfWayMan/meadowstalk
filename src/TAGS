@@ -1,0 +1,40 @@
+
+./Main.hs,0
+
+./ArticleImporter.hs,487
+data YamlArticle YamlArticle12,13
+  YamlArticle YamlArticle13,14
+  YamlArticle { yamlArticleSlug yamlArticleSlug13,14
+              , yamlArticleName yamlArticleName14,15
+              , yamlArticleDate yamlArticleDate15,16
+              , yamlArticleSynopsis yamlArticleSynopsis16,17
+              , yamlArticleTags yamlArticleTags17,18
+instance instance20,21
+parseArticleDescription parseArticleDescription30,31
+parseArticleDescription parseArticleDescription31,32
+
+./Meadowstalk/Handlers/Public.hs,0
+
+./Meadowstalk/Handlers/Admin.hs,0
+
+./Meadowstalk/Application.hs,137
+module Meadowstalk.ApplicationMeadowstalk.Application5,6
+makeApplication makeApplication20,21
+makeApplication makeApplication21,22
+
+./Meadowstalk/Model.hs,49
+module Meadowstalk.ModelMeadowstalk.Model10,11
+
+./Meadowstalk/Static.hs,107
+module Meadowstalk.StaticMeadowstalk.Static5,6
+staticSite staticSite12,13
+staticSite staticSite13,14
+
+./Meadowstalk/Foundation.hs,284
+module Meadowstalk.FoundationMeadowstalk.Foundation12,13
+data Meadowstalk Meadowstalk24,25
+  Meadowstalk Meadowstalk25,26
+  Meadowstalk { siteStatic siteStatic25,26
+              , siteLogger siteLogger26,27
+              , sitePool sitePool27,28
+instance instance37,38

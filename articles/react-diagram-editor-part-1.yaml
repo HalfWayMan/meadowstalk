@@ -1,0 +1,13 @@
+slug:  'react-diagram-editor-part-1'
+title: 'Diagram Editor in React (Part 1)'
+image: null
+author: 'rain'
+synopsis: >
+  Start of a series building a diagram editor using SVG and Facebook's
+  React framework.
+tags:
+  - 'Haskell'
+  - 'Web'
+  - 'TypeScript'
+  - 'React'
+  - 'SVG'
